@@ -1,2 +1,2 @@
 #!/bin/bash
-wc -l < <(find . -mindepth 1 -type d -printf '.')
+find . -mindepth 1 -type d -printf '.' | wc -c
